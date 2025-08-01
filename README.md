@@ -21,7 +21,7 @@ Built using **Flask (Python)** for the backend and a **JSON file** as a custom-t
 
 ## 📁 Project Structure
 
-/fitflex-ai/
+/fitlock-ai/
 ├── static/
 ├── templates/
 │ └── index.html
