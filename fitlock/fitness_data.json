@@ -1,0 +1,80 @@
+{
+    "default_response": "I'm sorry, I don't understand that question. Could you please rephrase it or ask something else about our gym services?",
+    "questions": [
+        {
+            "question": ["What are your opening hours?", "When are you open?", "What time do you open?", "What are your gym hours?"],
+            "answer": "Our gym is open from 5:00 AM to 11:00 PM Monday through Friday, and 7:00 AM to 9:00 PM on weekends.",
+            "keywords": ["hours", "open", "close", "time"]
+        },
+        {
+            "question": ["What membership options do you have?", "What types of memberships are available?", "Do you offer different membership plans?"],
+            "answer": "We offer three membership tiers: Basic ($29/month), Premium ($49/month), and Platinum ($79/month). Premium includes group classes and Platinum adds personal training sessions.",
+            "keywords": ["membership", "plan", "price", "cost"]
+        },
+        {
+            "question": ["Do you have personal trainers?", "Can I get a personal trainer?", "Are there trainers available?"],
+            "answer": "Yes, we have certified personal trainers available. You can book sessions individually or as part of our Platinum membership package.",
+            "keywords": ["trainer", "personal training", "coach"]
+        },
+        {
+            "question": ["What equipment do you have?", "What kind of machines are available?", "Do you have squat racks?"],
+            "answer": "Our gym is fully equipped with cardio machines, weight training equipment, free weights, functional training areas, and dedicated spaces for stretching and mobility work.",
+            "keywords": ["equipment", "machines", "weights", "rack", "treadmill"]
+        },
+        {
+            "question": ["Do you offer classes?", "What group classes do you have?", "Are there any fitness classes?"],
+            "answer": "We offer a variety of group classes including yoga, HIIT, spin, Zumba, Pilates, and strength training. The schedule changes weekly.",
+            "keywords": ["classes", "group", "yoga", "HIIT", "spin"]
+        },
+        {
+            "question": ["How do I cancel my membership?", "Can I cancel my subscription?", "What's the cancellation policy?"],
+            "answer": "You can cancel your membership by visiting the front desk or sending us an email. We require 30 days notice for cancellations.",
+            "keywords": ["cancel", "terminate", "stop", "membership"]
+        },
+        {
+            "question": ["Do you have locker rooms?", "Are there showers at the gym?", "Can I store my belongings?"],
+            "answer": "Yes, we have fully equipped locker rooms with showers, towels, and secure lockers (bring your own lock).",
+            "keywords": ["locker", "shower", "changing", "room"]
+        },
+        {
+            "question": ["What's your age policy?", "Can teenagers join?", "Is there a minimum age?"],
+            "answer": "Members must be at least 16 years old. Teens aged 16-17 need parental consent. We offer special youth programs for ages 12-15 with supervision.",
+            "keywords": ["age", "teen", "child", "kids", "young"]
+        },
+        {
+            "question": ["Do you have parking?", "Is there a parking lot?", "Where can I park?"],
+            "answer": "We have a dedicated parking lot for members with 50 spaces. Additional street parking is available nearby.",
+            "keywords": ["parking", "park", "car"]
+        },
+        {
+            "question": ["What safety measures do you have?", "How do you clean equipment?", "COVID protocols?"],
+            "answer": "We thoroughly clean all equipment daily, provide sanitizing stations throughout the gym, and enforce strict hygiene protocols. Staff are trained in first aid and CPR.",
+            "keywords": ["clean", "safety", "sanitize", "COVID", "hygiene"]
+        },
+        {
+            "question": ["Can I bring a guest?", "Do you allow visitors?", "Guest policy?"],
+            "answer": "Premium and Platinum members can bring one guest per visit. Basic members can purchase day passes for guests at $15 each.",
+            "keywords": ["guest", "visitor", "friend", "bring"]
+        },
+        {
+            "question": ["Do you offer nutrition advice?", "Can I get diet plans?", "Nutrition counseling?"],
+            "answer": "Our Platinum membership includes one nutrition consultation per month. We also offer stand-alone nutrition counseling sessions with our certified dietitian.",
+            "keywords": ["nutrition", "diet", "food", "eat", "meal"]
+        },
+        {
+            "question": ["What should I bring to the gym?", "Do I need special shoes?", "Gym essentials?"],
+            "answer": "Bring comfortable workout clothes, athletic shoes, a water bottle, and a towel. We recommend a lock for lockers. All other equipment is provided.",
+            "keywords": ["bring", "wear", "need", "shoes", "clothes"]
+        },
+        {
+            "question": ["Do you have a sauna?", "Is there a steam room?", "What amenities do you offer?"],
+            "answer": "Yes, we have both a sauna and steam room available for all members. These are located in the locker rooms.",
+            "keywords": ["sauna", "steam", "amenities", "jacuzzi", "pool"]
+        },
+        {
+            "question": ["How do I sign up?", "Can I join online?", "Membership registration?"],
+            "answer": "You can sign up at the front desk or through our website. We offer a free 3-day trial for new members.",
+            "keywords": ["sign up", "join", "register", "membership", "new"]
+        }
+    ]
+}

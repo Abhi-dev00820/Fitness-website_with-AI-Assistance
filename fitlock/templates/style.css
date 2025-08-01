@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    background: url("HEADER FT 2.jpg") no-repeat center center/cover;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(238, 215, 236);
+    background-color: rgba(36, 34, 34, 0.818);
+    font-size: 60px;
+    padding: 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 4px;
+    position: relative;
+    margin-bottom: 200px; 
+}
+
+.hero h1 {
+    font-size: 24px;
+    margin: 5px 0 0 0;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 16px;
+    background-color: rgb(5, 255, 5);
+    border-radius: 10px;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+main h1 {
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;   
+    margin-left: 300px;    
+    margin-bottom: 10px;
+    margin: 20px;
+}
+
+.card {
+    color: aliceblue;
+    text-shadow: 0 0 5px;
+    background-color: rgb(9, 255, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    text-align: center;
+    padding: 20px 40px;
+    margin: 100px auto;
+    width: fit-content;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgb(9, 255, 0);
+}
+
+p {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Logo Styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.chatbot-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ff00;
+    z-index: 999;
+    transition: transform 0.3s ease;
+}
+
+.chatbot-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff00;
+}
+
