@@ -38,7 +38,7 @@ Edit
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/fitflex-ai
+git clone https://github.com/Abhi-dev00820/fitflex-ai
 
 Copy
 Edit
